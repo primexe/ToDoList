@@ -51,7 +51,6 @@
 			isa = PBXGroup;
 			children = (
 				A4745F4929C8A28A00A4E774 /* Assets.xcassets */,
-				A4745F4E29C8A28A00A4E774 /* Info.plist */,
 			);
 			path = "Supporting files";
 			sourceTree = "<group>";
@@ -79,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				A4745F3F29C8A28800A4E774 /* ToDoList */,
+				A4745F4E29C8A28A00A4E774 /* Info.plist */,
 				A4745F3E29C8A28800A4E774 /* Products */,
 			);
 			sourceTree = "<group>";
