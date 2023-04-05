@@ -19,17 +19,7 @@ class TodoListViewController: UITableViewController {
         
         super.viewDidLoad()
         
-        let newItem = Item()
-        newItem.title = "Study"
-        itemArray.append(newItem)
-        
-        let newItem1 = Item()
-        newItem1.title = "Work"
-        itemArray.append(newItem1)
-        
-        //        if let items = defaults.array(forKey: "ToDoListArray") as? [Item] {
-        //            itemArray = items
-        //        }
+        loadItems()
     }
     
     //MARK: TableView Datasource Methods
@@ -76,7 +66,7 @@ class TodoListViewController: UITableViewController {
             
             self.itemArray.append(newItem)
             self.saveItems()
-
+            
         }
         
         alert.addTextField { (alertTextField) in
@@ -103,6 +93,17 @@ class TodoListViewController: UITableViewController {
             print("error in encoding \(error)")
         }
         self.tableView.reloadData()
+    }
+    
+    func loadItems() {
+        if let data = try? Data(contentsOf: dataFilePath!) {
+            let decoder = PropertyListDecoder()
+            do {
+                itemArray = try decoder.decode([Item].self, from: data)
+            } catch {
+                print("error in decoding \(error)")
+            }
+        }
     }
 }
 
