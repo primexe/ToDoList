@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A401EEB429DC4AD300BA243B /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = A401EEB329DC4AD300BA243B /* Item.swift */; };
+		A40D5EE229DEA79100255F23 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A40D5EE029DEA79100255F23 /* DataModel.xcdatamodeld */; };
 		A4745F4129C8A28800A4E774 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4745F4029C8A28800A4E774 /* AppDelegate.swift */; };
 		A4745F4329C8A28800A4E774 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4745F4229C8A28800A4E774 /* SceneDelegate.swift */; };
 		A4745F4529C8A28800A4E774 /* TodoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4745F4429C8A28800A4E774 /* TodoListViewController.swift */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		A401EEB329DC4AD300BA243B /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		A40D5EE129DEA79100255F23 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
 		A4745F3D29C8A28800A4E774 /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4745F4029C8A28800A4E774 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4745F4229C8A28800A4E774 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +45,7 @@
 			isa = PBXGroup;
 			children = (
 				A401EEB329DC4AD300BA243B /* Item.swift */,
+				A40D5EE029DEA79100255F23 /* DataModel.xcdatamodeld */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -174,6 +177,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A401EEB429DC4AD300BA243B /* Item.swift in Sources */,
+				A40D5EE229DEA79100255F23 /* DataModel.xcdatamodeld in Sources */,
 				A4745F4529C8A28800A4E774 /* TodoListViewController.swift in Sources */,
 				A4745F4129C8A28800A4E774 /* AppDelegate.swift in Sources */,
 				A4745F4329C8A28800A4E774 /* SceneDelegate.swift in Sources */,
@@ -394,6 +398,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A40D5EE029DEA79100255F23 /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A40D5EE129DEA79100255F23 /* DataModel.xcdatamodel */,
+			);
+			currentVersion = A40D5EE129DEA79100255F23 /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = A4745F3529C8A28700A4E774 /* Project object */;
 }
