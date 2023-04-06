@@ -25,7 +25,7 @@
 		A4745F4729C8A28800A4E774 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A4745F4929C8A28A00A4E774 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4745F4C29C8A28A00A4E774 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A4745F4E29C8A28A00A4E774 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4745F4E29C8A28A00A4E774 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = ../../Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +50,7 @@
 		A401EEB529DC4B4D00BA243B /* Supporting files */ = {
 			isa = PBXGroup;
 			children = (
+				A4745F4E29C8A28A00A4E774 /* Info.plist */,
 				A4745F4929C8A28A00A4E774 /* Assets.xcassets */,
 			);
 			path = "Supporting files";
@@ -78,7 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				A4745F3F29C8A28800A4E774 /* ToDoList */,
-				A4745F4E29C8A28A00A4E774 /* Info.plist */,
 				A4745F3E29C8A28800A4E774 /* Products */,
 			);
 			sourceTree = "<group>";
