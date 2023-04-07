@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A401EEB429DC4AD300BA243B /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = A401EEB329DC4AD300BA243B /* Item.swift */; };
 		A40D5EE229DEA79100255F23 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A40D5EE029DEA79100255F23 /* DataModel.xcdatamodeld */; };
 		A4745F4129C8A28800A4E774 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4745F4029C8A28800A4E774 /* AppDelegate.swift */; };
 		A4745F4329C8A28800A4E774 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4745F4229C8A28800A4E774 /* SceneDelegate.swift */; };
@@ -18,7 +17,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A401EEB329DC4AD300BA243B /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		A40D5EE129DEA79100255F23 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
 		A4745F3D29C8A28800A4E774 /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4745F4029C8A28800A4E774 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,7 +42,6 @@
 		A401EEB229DC4AC300BA243B /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				A401EEB329DC4AD300BA243B /* Item.swift */,
 				A40D5EE029DEA79100255F23 /* DataModel.xcdatamodeld */,
 			);
 			path = Model;
@@ -71,8 +68,6 @@
 		A401EEB729DC4B6900BA243B /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				A4745F4029C8A28800A4E774 /* AppDelegate.swift */,
-				A4745F4229C8A28800A4E774 /* SceneDelegate.swift */,
 				A4745F4429C8A28800A4E774 /* TodoListViewController.swift */,
 			);
 			path = Controllers;
@@ -97,6 +92,8 @@
 		A4745F3F29C8A28800A4E774 /* ToDoList */ = {
 			isa = PBXGroup;
 			children = (
+				A4745F4029C8A28800A4E774 /* AppDelegate.swift */,
+				A4745F4229C8A28800A4E774 /* SceneDelegate.swift */,
 				A401EEB229DC4AC300BA243B /* Model */,
 				A401EEB729DC4B6900BA243B /* Controllers */,
 				A401EEB629DC4B6000BA243B /* Views */,
@@ -176,7 +173,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A401EEB429DC4AD300BA243B /* Item.swift in Sources */,
 				A40D5EE229DEA79100255F23 /* DataModel.xcdatamodeld in Sources */,
 				A4745F4529C8A28800A4E774 /* TodoListViewController.swift in Sources */,
 				A4745F4129C8A28800A4E774 /* AppDelegate.swift in Sources */,
