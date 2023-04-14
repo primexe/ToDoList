@@ -21,7 +21,7 @@
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                             <textInputTraits key="textInputTraits"/>
                             <connections>
-                                <outlet property="delegate" destination="JGi-OP-eK4" id="7le-67-547"/>
+                                <outlet property="delegate" destination="JGi-OP-eK4" id="HgR-wr-cub"/>
                             </connections>
                         </searchBar>
                         <prototypes>
@@ -47,20 +47,8 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
-                    <connections>
-                        <outlet property="searchDisplayController" destination="bHS-Al-o2l" id="H5P-CY-qGE"/>
-                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nbB-b4-hom" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-                <searchDisplayController id="bHS-Al-o2l">
-                    <connections>
-                        <outlet property="delegate" destination="JGi-OP-eK4" id="odx-9M-9rm"/>
-                        <outlet property="searchBar" destination="yyZ-4Z-UyN" id="gn4-jS-TJ8"/>
-                        <outlet property="searchContentsController" destination="JGi-OP-eK4" id="0VT-Yy-S0V"/>
-                        <outlet property="searchResultsDataSource" destination="JGi-OP-eK4" id="kh1-YE-05j"/>
-                        <outlet property="searchResultsDelegate" destination="JGi-OP-eK4" id="Xf3-kW-V7h"/>
-                    </connections>
-                </searchDisplayController>
             </objects>
             <point key="canvasLocation" x="1666.4122137404579" y="-5.6338028169014089"/>
         </scene>
